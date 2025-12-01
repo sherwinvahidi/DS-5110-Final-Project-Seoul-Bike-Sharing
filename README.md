@@ -21,7 +21,7 @@ This project implements binary classification models to predict high-demand peri
 - **Features:** Weather conditions (temperature, humidity, wind, etc.) + temporal features
 
 ## Repository Structure
-'''
+```
 ├── data/
 │   ├── SeoulBikeData.csv          # Original dataset
 │   └── processed_data_full.csv     # Processed dataset with engineered features
@@ -36,7 +36,7 @@ This project implements binary classification models to predict high-demand peri
 │   └── Presentation_Slides.pdf     # Presentation slides
 ├── requirements.txt                # Python dependencies
 └── README.md                       # This file
-'''
+```
 
 ## Installation & Setup
 ```bash

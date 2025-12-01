@@ -25,15 +25,10 @@ This project implements binary classification models to predict high-demand peri
 ├── data/
 │   ├── SeoulBikeData.csv          # Original dataset
 │   └── processed_data_full.csv     # Processed dataset with engineered features
-├── notebooks/
-│   ├── 01_data_preprocessing.ipynb # EDA and feature engineering
-│   ├── 02_logistic_regression.ipynb # Logistic regression implementation
-│   ├── 03_random_forest.ipynb      # Random forest implementation
-│   └── 04_xgboost.ipynb            # XGBoost implementation
-├── report/
-│   └── Final_Report.pdf            # Written report
-├── presentation/
-│   └── Presentation_Slides.pdf     # Presentation slides
+├── preprocessing.ipynb # EDA and feature engineering
+├── Logistic_Regression.ipynb # Logistic regression implementation
+├── Random_Forest.ipynb      # Random forest implementation
+├── XGBoost.ipynb            # XGBoost implementation
 ├── requirements.txt                # Python dependencies
 └── README.md                       # This file
 ```
